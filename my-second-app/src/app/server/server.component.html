@@ -1,0 +1,8 @@
+<h3>Server Work</h3>
+<!--data binding by string interpolatioin -->
+<!--getserverStatus() refar by method  -->
+<!--dynamic background colour by ngStyle-->
+<p [ngStyle]="{backgroundColor: getColor()}"
+[ngClass]="{onLine: serverStatus === 'onLine'}">
+ServerId{{serverId }} and server status {{getserverStatus()}}</p>
+<p>ServerId{{serverId }} and server status {{getserverStatus()}}</p>
